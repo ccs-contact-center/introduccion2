@@ -29,13 +29,13 @@ class TemaUnoView extends Component {
                     className="cajaGris
                    ml-2 mr-2"
                   >
-                    <p className="pl-3 text-justify">
+                    <p className=" text-justify">
                       El 2019 fue un año particularmente complejo debido a la
                       percepción de cambios en la política nacional de México
                       con la nueva administración, los problemas de inseguridad
                       en diferentes regiones del país, la incertidumbre de la
                       relación comercial con EUA
-                      <br /> (T-MEC), aunado a la situación económica nacional e
+                       (T-MEC), aunado a la situación económica nacional e
                       internacional (volatilidad en el tipo de cambio, baja en
                       las tasas de intereses e inversiones, etc). <br />A pesar
                       de la complejidad de este entorno la industria en este
@@ -51,7 +51,7 @@ class TemaUnoView extends Component {
                     className="cajaRoja
                    ml-2 mr-2"
                   >
-                    <p className="pl-3 text-justify">
+                    <p className=" text-justify">
                       Aunque en 2019 hubo más empresas con planes de crecimiento
                       que este año, las expectativas siguen siendo optimistas.
                       De hecho, ninguna empresa espera disminuir su capacidad el
