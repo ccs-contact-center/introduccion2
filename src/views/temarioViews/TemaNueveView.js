@@ -29,8 +29,8 @@ class TemaNueveView extends Component {
                     alt="nueve "
                     className="img-fluid bordeImagen"
                   />
-                  <div className=" cajaRoja  ml-2 mr-2 ">
-                    <p style={{ textAlign: "center" }}>
+                  <div className=" cajaRoja   ">
+                    <p style={{ textAlign: "justify" }}>
                       Empoderar los clientes y dejarlos resolver demandas por sí
                       mismos puede mejorar la experiencia que ellos tienen con
                       la empresa. Cada vez más, es posible resolver problemas de
@@ -40,8 +40,8 @@ class TemaNueveView extends Component {
                   </div>
                 </Col>
                 <Col xs="6" className="centrado-fila ">
-                  <div className="cajaGris  ml-2 mr-2 mt-3">
-                    <p style={{ textAlign: "center" }}>
+                  <div className="cajaGris ">
+                    <p style={{ textAlign: "justify" }}>
                       En este contexto, hay dos puntos muy importantes que
                       considerar. <b>El primero es la disponibilidad de contenido
                       informativo</b>. FAQs, tutoriales, e-books y guías deberían
