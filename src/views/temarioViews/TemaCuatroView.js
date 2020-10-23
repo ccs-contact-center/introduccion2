@@ -16,17 +16,15 @@ class TemaCuatroView extends Component {
         </CardHeader>
         <CardBody className="">
           <Row className="centrado-fila">
-            <Col xs="3">
-              <h3 style={{ color: "red", textAlign: "center" }}>Tendencias</h3>
-            </Col>
-            <Col xs="9">
+           
+            <Col xs="12">
               <Row className="centrado-fila">
                 <Col xs="4">
                   <img
                     src={cuatro}
                     style={{ width: "" }}
                     alt="cuatro "
-                    className="img-fluid"
+                    className="img-fluid bordeImagen"
                   />
                 </Col>
                 <Col xs="8">
