@@ -38,10 +38,8 @@ import TemaVeintiseisView from "./temarioViews/TemaVeintiseisView";
 import TemaVeintisieteView from "./temarioViews/TemaVeintisieteView";
 import TemaVeintiochoView from "./temarioViews/TemaVeintiochoView";
 import TemaVeintinueveView from "./temarioViews/TemaVeintinueveView";
-
+import formulario2View from "./temarioViews/formulario2View";
 import Fin from "./temarioViews/Fin";
-
-
 
 //import RecapitulacionView from './temarioViews/RecapitulacionView'
 
@@ -132,11 +130,13 @@ class Inicio extends Component {
           ) : this.state.index === 31 ? (
             <TemaVeintinueveView />
           ) : this.state.index === 32 ? (
+            <formulario2View />
+          ) : this.state.index === 33 ? (
             <Fin />
           ) : null}
           <br />
           <CardFooter>
-            <Navegador handleNavigation={this.setIndex} maxIndex={32} />
+            <Navegador handleNavigation={this.setIndex} maxIndex={33} />
           </CardFooter>
         </Card>
       </div>
