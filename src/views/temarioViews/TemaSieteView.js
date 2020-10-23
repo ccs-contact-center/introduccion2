@@ -21,9 +21,9 @@ class TemaSieteView extends Component {
             </Col>
             <Col xs="9">
               <Row>
-                <Col xs="6" className="centrado-fila ">
-                  <div className="cajaGris  ml-2 mr-2 mt-3">
-                    <p style={{ textAlign: "left" }}>
+                <Col xs="6" className="centrado-fil ">
+                  <div className="cajaGris  mt-3">
+                    <p style={{ textAlign: "justify" }}>
                       <b>Omnicanalidad</b> es una estrategia en la que se
                       utilizan diversos canales de comunicación de modo
                       simultáneo. Al diversificar las posibilidades de
@@ -39,9 +39,9 @@ class TemaSieteView extends Component {
                     </p>
                   </div>
                 </Col>
-                <Col xs="6" className="centrado-fila ">
-                  <div className="cajaRoja  ml-2 mr-2 mt-3">
-                    <p style={{ textAlign: "left" }}>
+                <Col xs="6" className="centrado-fil ">
+                  <div className="cajaRoja   mt-3">
+                    <p style={{ textAlign: "justify" }}>
                       <b>En el caso los centros de contacto</b>, la tendencia es que se
                       ofrezca más de una posibilidad para la interacción entre
                       clientes y operadores. Para lograr esta diversidad, se
