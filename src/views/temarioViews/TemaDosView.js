@@ -57,7 +57,7 @@ class TemaDosView extends Component {
               </div>
             </Col>
             <Col xs="12">
-              <p>
+              <p className="text-center">
                 Ahora que comenzamos una nueva década, surgen muchas preguntas
                 sobre cuáles serán los cambios que estaremos viviendo en este
                 futuro próximo.
@@ -72,14 +72,14 @@ class TemaDosView extends Component {
             <Col xs="12" className="text-justify">
               <Row className="centrado-fila">
                 <Col xs="6" className="centrado-fila">
-                  <div>
+                  <div className="centrado-fila">
                   <img
                       src={dos}
                       alt="dos "
                       className="img-fluid  animated  bounceInRight delay-0s"
                     />
                   </div>
-                  <div>
+                  <div className="centrado-fila">
                     <p>
                       <b className="pRojo">Realidad conectada en Red</b>: La
                       línea entre lo virtual y lo real se desvanecerá, el
