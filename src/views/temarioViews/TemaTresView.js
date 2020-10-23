@@ -15,14 +15,14 @@ class TemaDosView extends Component {
         </CardHeader>
         <CardBody>
           <Row className="centrado-fila">
-            <Col xs="3">
-              <Row className="centrado-fila">
+            <Col xs="2">
+              <Row>
                 <Col xs="12">
                   <h3 style={{ color: "red", textAlign: "center" }}>Cambios</h3>
                 </Col>
               </Row>
             </Col>
-            <Col xs="9">
+            <Col xs="10">
               <Row className="centrado-fila text-justify">
                 <Col xs="6" className="centrado-fila">
                   <img
@@ -47,6 +47,7 @@ class TemaDosView extends Component {
                     alt="dos "
                     className="img-fluid  animated  bounceInRight delay-0s"
                   />
+
                   <p>
                     {" "}
                     <b className="pRojo">Agentes y Algoritmos</b>: Para 2030,
@@ -62,7 +63,7 @@ class TemaDosView extends Component {
           </Row>
           <Row>
             <Col xs="12" className="centrado-fila">
-              <p>
+              <p className="text-justify">
                 <b className="pRojo">Robots con vidas social</b>: Los robots
                 sociales del mañana estarán socialmente comprometidos con los
                 humanos, pero también entre ellos. Cuando un robot aprende, o se
