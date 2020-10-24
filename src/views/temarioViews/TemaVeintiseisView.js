@@ -17,13 +17,13 @@ class TemaVeintiseisView extends Component {
     <div className="animated fadeIn pt-1 text-center">Cargando...</div>
   );
 
-  state = {
-    abierto: true,
-  };
+  // state = {
+  //   abierto: true,
+  // };
 
-  abrirModal(e) {
-    this.setState({ abierto: !this.state.abierto });
-  }
+  // abrirModal(e) {
+  //   this.setState({ abierto: !this.state.abierto });
+  // }
 
   render() {
     return (
@@ -38,31 +38,33 @@ class TemaVeintiseisView extends Component {
             </Col>
             <Col xs="9">
               <Row className="centrado-fila">
-                <Button color="primary" onClick={this.abrirModal.bind(this)}>
+                {/* <Button color="primary" onClick={this.abrirModal.bind(this)}>
                   Ver video
-                </Button>
+                </Button> */}
+                <ReactPlayer
+                  url="https://www.youtube.com/watch?v=kE3HUbBGu8A"
+                  playing
+                />
               </Row>
             </Col>
           </Row>
         </CardBody>
 
-        <Modal isOpen={this.state.abierto} style={{ width: "1200px" }}>
+        {/* <Modal isOpen={this.state.abierto} style={{ width: "1200px" }}>
           <ModalHeader>
             <h3 style={{ color: "red", textAlign: "" }}>Para finalizar</h3>
           </ModalHeader>
-          <ModalBody style={{ width: "100%" }} className="centrado-fila">
-            <ReactPlayer
-              url="https://www.youtube.com/watch?v=kE3HUbBGu8A"
-              playing
-            />
-          </ModalBody>
+          <ModalBody
+            style={{ width: "100%" }}
+            className="centrado-fila"
+          ></ModalBody>
 
           <ModalFooter>
             <Button color="primary" onClick={this.abrirModal.bind(this)}>
               Cerrar
             </Button>
           </ModalFooter>
-        </Modal>
+        </Modal> */}
       </div>
     );
   }
