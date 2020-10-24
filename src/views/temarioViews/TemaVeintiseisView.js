@@ -4,11 +4,11 @@ import {
   CardHeader,
   Col,
   Row,
-  Button,
-  Modal,
-  ModalBody,
-  ModalFooter,
-  ModalHeader,
+  // Button,
+  // Modal,
+  // ModalBody,
+  // ModalFooter,
+  // ModalHeader,
 } from "reactstrap";
 import ReactPlayer from "react-player";
 
