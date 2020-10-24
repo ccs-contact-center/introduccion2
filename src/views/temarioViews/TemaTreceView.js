@@ -17,6 +17,7 @@ class TemaTreceView extends Component {
           <Row className="">
             <Col xs="3">
               <h3 style={{ color: "red", textAlign: "center" }}>7. Nube</h3>
+              <div className="centrado-fila"></div>
             </Col>
             <Col xs="9">
               <Row>
@@ -27,13 +28,13 @@ class TemaTreceView extends Component {
                       principales tendencias del mercado de call centers en los
                       años anteriores, y que va a seguir creciendo.
                     </p>
+                    <img
+                      src={trece}
+                      style={{ width: "310px" }}
+                      alt="trece "
+                      className="img-fluid bordeImagen"
+                    />
                   </div>
-                  <img
-                    src={trece}
-                    style={{ width: "350px" }}
-                    alt="trece "
-                    className="img-fluid bordeImagen"
-                  />
                 </Col>
                 <Col xs="6">
                   <div className="cajaRoja  ml-2 mr-2 mt-3">
