@@ -4,27 +4,26 @@ import {
   Col,
   Row,
   CardHeader,
-  Button,
-  Modal,
-  ModalBody,
-  ModalFooter,
+  // Button,
+  // Modal,
+  // ModalBody,
+  // ModalFooter,
 } from "reactstrap";
 import dos from "../../assets/img/intro/dos.png";
 import ReactPlayer from "react-player";
-
 
 class TemaDosView extends Component {
   loading = () => (
     <div className="animated fadeIn pt-1 text-center">Cargando...</div>
   );
 
-  state = {
-    abierto: false,
-  };
+  // state = {
+  //   abierto: false,
+  // };
 
-  abrirModal(e) {
-    this.setState({ abierto: !this.state.abierto });
-  }
+  // abrirModal(e) {
+  //   this.setState({ abierto: !this.state.abierto });
+  // }
 
   render() {
     return (
@@ -48,12 +47,15 @@ class TemaDosView extends Component {
                   <b>Previo: Algunas tendencias</b>
                 </p>
               </div>
-              &nbsp;
-              &nbsp;
+              &nbsp; &nbsp;
               <div>
-                <Button color="primary" onClick={this.abrirModal.bind(this)}>
+                <ReactPlayer
+                  url="https://www.youtube.com/watch?v=bD1iOVNGtMA"
+                  playing
+                />
+                {/* <Button color="primary" onClick={this.abrirModal.bind(this)}>
                   Ver video
-                </Button>
+                </Button> */}
               </div>
             </Col>
             <Col xs="12">
@@ -73,7 +75,7 @@ class TemaDosView extends Component {
               <Row className="centrado-fila">
                 <Col xs="6" className="centrado-fila">
                   <div className="centrado-fila">
-                  <img
+                    <img
                       src={dos}
                       alt="dos "
                       className="img-fluid  animated  bounceInRight delay-0s"
@@ -98,22 +100,18 @@ class TemaDosView extends Component {
                     transportará en vehículos autónomos.
                   </p>
                   <img
-                      src={dos}
-                      alt="dos "
-                      className="img-fluid  animated  bounceInRight delay-0s"
-                    />
-                
+                    src={dos}
+                    alt="dos "
+                    className="img-fluid  animated  bounceInRight delay-0s"
+                  />
                 </Col>
               </Row>
             </Col>
           </Row>
         </CardBody>
-        <Modal isOpen={this.state.abierto} style={{ width: "1200px" }}>
+        {/* <Modal isOpen={this.state.abierto} style={{ width: "1200px" }}>
           <ModalBody style={{ width: "100%" }} className="centrado-fila">
-            <ReactPlayer
-              url="https://www.youtube.com/watch?v=bD1iOVNGtMA"
-              playing
-            />
+            
           </ModalBody>
 
           <ModalFooter>
@@ -121,7 +119,7 @@ class TemaDosView extends Component {
               Cerrar
             </Button>
           </ModalFooter>
-        </Modal>
+        </Modal> */}
       </div>
     );
   }
