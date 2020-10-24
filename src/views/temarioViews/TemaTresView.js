@@ -19,17 +19,20 @@ class TemaDosView extends Component {
               <Row>
                 <Col xs="12">
                   <h3 style={{ color: "red", textAlign: "center" }}>Cambios</h3>
+                  <div className="centrado-fila">
+                  <img
+                    src={dos}
+                    alt="dos "
+                    className="img-fluid  animated  bounceInRight delay-0s"
+                  />
+                  </div>
                 </Col>
               </Row>
             </Col>
             <Col xs="10">
               <Row className="centrado-fila text-justify">
                 <Col xs="6" className="centrado-fila">
-                  <img
-                    src={dos}
-                    alt="dos "
-                    className="img-fluid  animated  bounceInRight delay-0s"
-                  />
+                 
                   <p>
                     <b className="pRojo">
                       De Ciudades Digitales a Inteligentes
