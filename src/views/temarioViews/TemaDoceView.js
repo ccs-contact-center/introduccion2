@@ -37,6 +37,7 @@ class TemaDoceView extends Component {
                       cliente. Esto permite un tratamiento estratégico de los
                       datos, que pueden ser utilizados para personalizar
                       interacciones y proporcionar experiencias únicas.
+                     
                     </p>
                   </div>
                 </Col>
@@ -50,6 +51,9 @@ class TemaDoceView extends Component {
                       contexto, se destaca la grabación de llamadas. Al
                       almacenarlas y gerenciar su información, es posible
                       acceder a datos de gran valor.
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;
                     </p>
                   </div>
                 </Col>
